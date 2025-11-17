@@ -10,3 +10,14 @@ const selecion_de_Clases = document.querySelectorAll(".card");
 //comentario xd no pude hacer nada hoy 
 //mini ejercicio de clase
 
+class personas{
+    constructor(nombre,apellido){
+        this.name = nombre;
+        this.apellido = apellido;
+        this.info = `hola mi nimbre es ${this.name} y mi apellido es ${this.apellido}`;
+    }
+}
+let persona1 =  new personas("Lina","macias")
+console.log(persona1.info);
+
+
