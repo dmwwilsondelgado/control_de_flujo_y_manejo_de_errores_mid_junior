@@ -8,4 +8,5 @@ for (let i = 0; i < selecionarh2.length; i++) {
 const selecion_de_Clases = document.querySelectorAll(".card");
 
 //comentario xd no pude hacer nada hoy 
+//mini ejercicio de clase
 
