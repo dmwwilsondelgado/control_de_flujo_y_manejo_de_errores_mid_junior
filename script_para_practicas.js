@@ -16,8 +16,16 @@ class personas{
         this.apellido = apellido;
         this.info = `hola mi nimbre es ${this.name} y mi apellido es ${this.apellido}`;
     }
+
 }
-let persona1 =  new personas("Lina","macias")
+let persona1 =  new personas("Alejandra macias","macias")
+let persona2 =  new personas("Alejandra macias","macias")
+let persona3 =  new personas("Alejandra macias","macias")
+let persona4 =  new personas("Alejandra macias","macias")
+let persona5 =  new personas("Alejandra macias","macias")
+let persona6 =  new personas("Alejandra macias","macias")
+let persona7 =  new personas("Alejandra macias","macias")
+
 console.log(persona1.info);
 
 
