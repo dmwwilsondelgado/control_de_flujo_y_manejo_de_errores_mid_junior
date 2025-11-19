@@ -27,5 +27,5 @@ let persona6 =  new personas("Alejandra macias","macias")
 let persona7 =  new personas("Alejandra macias","macias")
 
 console.log(persona1.info);
-
+//cpmentario para commit 
 
