@@ -16,3 +16,33 @@ const pruebaTry = () => {
 console.log(pruebaTry());
 
 
+const pruebaTryy = () => {
+   //colocamos el Try cath
+   try {
+      return 1;
+   } catch (error) {
+      return 2;
+   }
+   finally{
+      return 3;
+   }
+}
+//listo ahora imprimos en cosola esa funcion 
+console.log(pruebaTry());
+
+
+const pruebaTryy = () => {
+   //colocamos el Try cath
+   try {
+      return 1;
+   } catch (error) {
+      return 2;
+   }
+   finally{
+      return 3;
+   }
+}
+//listo ahora imprimos en cosola esa funcion 
+console.log(pruebaTry());
+
+
