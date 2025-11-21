@@ -28,4 +28,9 @@ let persona7 =  new personas("Alejandra macias","macias")
 
 console.log(persona1.info);
 //cpmentario para commit 
+console.clear()/// limpiaos la consola para hacer las practicas necesarias para aplicar flijo y control 
+
+// un profesor rompio el sisstema lamentablemenet ay que crear la solucion al problema desarrolando una web similiar a su funcionamiento 
+
+
 
