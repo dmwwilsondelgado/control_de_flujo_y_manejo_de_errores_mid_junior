@@ -11,14 +11,15 @@ sendButoon.addEventListener("click",()=>{
     let resultado,mensaje;
     try {
         resultado = parseInt(document.getElementById("nota").value);
-        mensaje = "hola"
-        if (resultado.isNaN()) {
+        if (isNaN(resultado)) {
             throw "Gracioso"
             
         }
+        verificarAprovacion();
+        mensaje = " hola";
     } catch (error) {
         resultado = "sos gracioso ?";
-        mensaje =  alert("E descupierto que intentaste hackear el sitio ");
+        mensaje =  alert("estas descupierto que intentaste hackear el sitio ");
     }
     abrirmodal(resultado,mensaje)    
 })
@@ -28,4 +29,8 @@ sendButoon.addEventListener("click",()=>{
 const abrirmodal = (res,mens) => {
     console.log(res,);
     console.log(mens);
+}
+
+const verificarAprovacion  = () => {
+    
 }
