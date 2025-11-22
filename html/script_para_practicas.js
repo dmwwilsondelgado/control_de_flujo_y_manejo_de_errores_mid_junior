@@ -7,5 +7,5 @@ const seendButoon = document.getElementById(`snd-nota`);
 console.log(seendButoon);
 
 seendButoon.addEventListener("click",()=>{
-        
+    // creamos una funcion dentro de una funcion anonima    
 })
